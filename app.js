@@ -50,3 +50,14 @@ for (let i = 0; i < myArray.length; i++ ) {
 
 	if(myArray[i] > 2 && myArray[i] < 5) console.log(myArray[i]);
 }
+
+// 2-вариант
+/*
+const myArray = [2, 5, 9, 15, 0, 4];
+
+for (i = 0; i <= 4; i += 2) {
+  if (i > 2 && i < 5) {
+    console.log(i);
+  }
+}
+*/
